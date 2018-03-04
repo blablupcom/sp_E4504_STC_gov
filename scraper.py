@@ -116,7 +116,6 @@ for url in urls:
                 url = 'http://www.southtyneside.gov.uk' + link['href']
             else:
                 url = link['href']
-            print csv_name
             csvYr = csv_name.split()[1][:4]
             csvMth = csv_name.split()[0][:3]
             csvMth = convert_mth_strings(csvMth.upper())
